@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(187, 247, 224);
+}
+
+header {
+    padding: 16px 0;
+    background-color: #ffeb00;
+    color: #012420;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #012420;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+}
+
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin-top: 130px;
+}
+
+section img, aside img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-top: 20px;
+}
+
+section h1 {
+    align-self: flex-start; 
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-style: 25px;
+    background-color: #007f73;
+    color: #012420;
+    border-radius: 30%;
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+section p {
+    font-size: 18px;
+    width: 80%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #007f73;
+    color:#012420;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-self: flex-start; 
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: #007f73;
+    order: 1;
+}
+
+footer {
+    background-color: #ffeb00;
+    color: #ecf0f1;
+}
+
+footer h1 {
+    display:  inline-block;
+    margin-right: 10px;
+}
+
+footer .github-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
